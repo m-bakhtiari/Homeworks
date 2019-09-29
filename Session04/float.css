@@ -1,0 +1,30 @@
+#container{
+    width: 80%;
+    
+    background-color: gray;
+    margin: 30px auto;
+}
+#container::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+.item{
+    width: 17%;
+    height: 100px;
+    float: left;
+    margin: 15px 40px;
+}
+.redBox{  
+    background-color: red;
+}
+.blueBox{
+    background-color: blue;
+    margin-bottom: 50px; 
+}
+.yellowBox{
+    background-color: yellow;
+}
+.extra{
+    height: 200px;
+}
