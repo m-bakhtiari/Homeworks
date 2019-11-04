@@ -1,0 +1,6 @@
+@import "mixins";
+
+div{
+   @include arrow(red,50px,right);
+   margin: 200px 500px ;
+}
